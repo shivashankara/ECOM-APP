@@ -15,48 +15,28 @@ const Footer = dynamic(() => import("@/Layout/Partials/Footer"), {
 const Header = dynamic(() => import("@/Layout/Partials/Header"), {
   ssr: false,
 });
-const TemplateProductList = dynamic(() => import("./template"), {
+const TemplateProductList = dynamic(() => import("./template-old"), {
   ssr: false,
 });
 
 export default function Page() {
-  const [catList, setCatList] = useState<any>();
-  const fetchData = async () => {
-    const res = await getCategory();
-    setCatList(res.data);
-  };
 
-  useEffect(() => {
-    fetchData();
-  }, [catList]);
   return (
     <>
-      <CssBaseline />
-      <Header />
+      {/* <CssBaseline />
+      <Header /> */}
 
       <Container disableGutters={true}>
         <Grid container mt={4}>
           <Grid item xs={4}>
-            <SidebarMain>
-              <Typography variant="h5">Categories</Typography>
-              {catList &&
-                catList.map((cat: any) => {
-                  return (
-                    <>
-                      <a href={cat.url}>{cat.productName}</a> <br />
-                    </>
-                  );
-                })}
-            </SidebarMain>
+           
           </Grid>
           <Grid item xs={8}>
-            <TemplateProductList>
-              <PrimaryContentArea>Product List</PrimaryContentArea>
-            </TemplateProductList>
+            <PrimaryContentArea>Product List</PrimaryContentArea>
           </Grid>
         </Grid>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

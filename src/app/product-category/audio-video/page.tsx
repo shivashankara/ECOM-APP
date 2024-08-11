@@ -1,5 +1,7 @@
 export default function Page() {
     return (
-        <div>Gadget Page</div>
+        <div>
+            <h1>Audio and Vedio</h1>
+        </div>
     );
 }

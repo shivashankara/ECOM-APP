@@ -1,7 +1,7 @@
 export default function Page() {
     return (
         <div>
-            <h1>Gadgets</h1>
+            <h1>Home Appliance</h1>
         </div>
     );
-}
+}   

@@ -1,7 +1,8 @@
 export default function Page() {
     return (
         <div>
-            <h1>Gadgets</h1>
+            <h1>Refregirator
+            </h1>
         </div>
     );
 }
