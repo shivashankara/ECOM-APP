@@ -18,7 +18,7 @@ export default function AppMenu() {
           return (
             <Link
               className={`link ${pathname === menu.categoryName} ? "active" : ""}`}
-              href={`/product-category/${menu.url}`}
+              href={`/product-category/${menu.navUrl}`}
             >
               {menu.categoryName}
             </Link>

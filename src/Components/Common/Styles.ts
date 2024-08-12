@@ -8,4 +8,6 @@ export const BoxWrapper = styled(Box)`
   position: relative;
   background: #ffffff;
   border: solid 1px #dce3e5;
+  flex-wrap: wrap;
+  display: flex;
 `;

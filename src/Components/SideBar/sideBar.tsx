@@ -7,19 +7,22 @@ import { response } from "@/Mock/response";
 
 export default function SideBar() {
   const [catList, setCatList] = useState<any>(response);
-  
-
-  return (
+    return (
     <SidebarMain>
-      <Typography variant="h5">Categories</Typography>
+      <Typography variant="h5" sx={{marginBottom:'50px', fontWeight:'bold'}}>Categories</Typography>
       {catList &&
         catList?.category.map((cat: any) => {
           return (
             <>
-              <Link href={`${cat.url}`}>{cat.categoryName}</Link> <br />
+              <Link href={`${cat.navUrl}`}>{cat.categoryName}</Link> <br />
             </>
           );
         })}
+
+<Typography variant="h5" sx={{marginBottom:'50px', fontWeight:'bold'}}>Filter by price</Typography>
+<Typography variant="h5" sx={{marginBottom:'50px', fontWeight:'bold'}}>Average rating</Typography>
+
+
     </SidebarMain>
   );
 }

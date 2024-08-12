@@ -27,6 +27,12 @@ const AvailableServices = dynamic(
 
 import { Provider } from "react-redux";
 import store from "@/Redux/store";
+import Category from "@/Components/Category/category";
+import { response } from "@/Mock/response";
+import Typography from "@mui/material/Typography";
+import TodaysDealCard from "@/Components/TodaysDeal/TodaysDealCard";
+import BrandLogo from "@/Components/BrandLogo/BrandLogo";
+import Testimonial from "@/Components/Testimonial/Testimonial";
 
 // console.log("state",window.store)
 export default function Home() {
@@ -36,49 +42,19 @@ export default function Home() {
       <React.Fragment>
         <Provider store={store}>
           <CssBaseline />
-
           <Header />
           <Banner />
 
           <Container disableGutters={true}>
             <Grid container mt={4}>
-              <BoxWrapper style={{ width: "100%", display: "flex" }} mb={4}>
-                <Grid item xs={3}>
-                  <img
-                    src="https://picsum.photos/200/300"
-                    alt=""
-                    height={"200px"}
-                    width={"250px"}
-                  />
-                  <div>Description</div>
-                </Grid>
-                <Grid item xs={3}>
-                  <img
-                    src="https://picsum.photos/200/300"
-                    alt=""
-                    height={"200px"}
-                    width={"250px"}
-                  />
-                  <div>Description</div>
-                </Grid>
-                <Grid item xs={3}>
-                  <img
-                    src="https://picsum.photos/200/300"
-                    alt=""
-                    height={"200px"}
-                    width={"250px"}
-                  />
-                  <div>Description</div>
-                </Grid>
-                <Grid item xs={3}>
-                  <img
-                    src="https://picsum.photos/200/300"
-                    alt=""
-                    height={"200px"}
-                    width={"250px"}
-                  />
-                  <div>Description</div>
-                </Grid>
+              <BoxWrapper mb={4}>
+                {response.category.map((cat) => {
+                  return (
+                    <Grid item xs={3}>
+                      <Category category={cat} />
+                    </Grid>
+                  );
+                })}
               </BoxWrapper>
             </Grid>
 
@@ -91,7 +67,49 @@ export default function Home() {
               </Grid>
             </Grid>
 
-            <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
+            <Grid container pt={1}>
+              <BoxWrapper>
+                <Grid xs={12}>
+                  <Typography variant="h6" gutterBottom>
+                    <strong> Today’s best deal </strong>
+                    <a href="#">See more</a>
+                  </Typography>
+                </Grid>
+                {response.bestDeal.map((deal) => {
+                  return (
+                    <Grid item xs={3} mb={2}>
+                      <TodaysDealCard
+                        dealOftheDay={deal}
+                        category={"bestDeal"}
+                      />
+                    </Grid>
+                  );
+                })}
+              </BoxWrapper>
+            </Grid>
+
+            <Grid container pt={1}>
+              <BoxWrapper>
+                <Grid xs={12}>
+                  <Typography variant="h6" gutterBottom>
+                    <strong> Audio & Video</strong>
+                    <a href="#">See more</a>
+                  </Typography>
+                </Grid>
+                {response?.audio_vedio?.map((aAndv) => {
+                  return (
+                    <Grid item xs={3} mb={2}>
+                      <TodaysDealCard
+                        dealOftheDay={aAndv}
+                        category={"audio_vedio"}
+                      />
+                    </Grid>
+                  );
+                })}
+              </BoxWrapper>
+            </Grid>
+
+            {/* <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
               <Grid container pt={1}>
                 <Grid item xs={12}>
                   <div>New Arrivals</div>
@@ -102,19 +120,9 @@ export default function Home() {
                   </Grid>
                 ))}
               </Grid>
-            </BoxWrapper>
+            </BoxWrapper> */}
 
-            <BoxWrapper style={{ width: "100%", marginTop: "16px" }}>
-              <Grid container pt={1}>
-                {productListArray.map((_, index) => (
-                  <Grid item xs={3}>
-                    <ProductList key={index} />
-                  </Grid>
-                ))}
-              </Grid>
-            </BoxWrapper>
-
-            <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
+            {/* <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
               <Grid container pt={1}>
                 <Grid item xs={12}>
                   <div>Audio and Video</div>
@@ -125,9 +133,9 @@ export default function Home() {
                   </Grid>
                 ))}
               </Grid>
-            </BoxWrapper>
+            </BoxWrapper> */}
 
-            <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
+            {/* <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
               <Grid container pt={1}>
                 <Grid item xs={12}>
                   <div>Home appliances See more</div>
@@ -151,7 +159,7 @@ export default function Home() {
                   </Grid>
                 ))}
               </Grid>
-            </BoxWrapper>
+            </BoxWrapper> */}
 
             <Grid container pt={1}>
               <Grid item xs={12}>
@@ -161,7 +169,12 @@ export default function Home() {
 
             <Grid container>
               <Grid item xs={6}>
-                Brand Deal
+                <Typography variant="h6" color="text.secondary">
+                  <strong>Brand’s deal</strong>
+                </Typography>
+                <Typography variant="h4" component={"h4"}>
+                  Save up to $200 on select Samsung washing machine
+                </Typography>
               </Grid>
               <Grid item xs={6}>
                 <img src="./Offer2.jpg" alt="" />
@@ -170,32 +183,33 @@ export default function Home() {
 
             <Grid container>
               <Grid item xs={12}>
-                Top brands
+                <Typography variant="h6" component={"h4"} fontWeight={"bold"}>
+                  Top brands
+                </Typography>
               </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
-              <Grid item xs={2}>
-                image1
-              </Grid>
+              {response.brandLogo.map((logo) => {
+                return (
+                  <Grid item xs={2}>
+                    <BrandLogo logo={logo} />
+                  </Grid>
+                );
+              })}
             </Grid>
-            <Grid container>
+            <Grid container mt={3}>
               <Grid item xs={12}>
-                What is everyone saying?
+                <Typography variant="h5" component={"h5"} mb={2}>
+                  What is everyone saying?
+                </Typography>
               </Grid>
-              <Grid item xs={4}>
+              {response.testimony.map((list) => {
+                return (
+                  <Grid item xs={4}  gap={'2px'}>
+                    <Testimonial testimony={list} />
+                  </Grid>
+                );
+              })}
+              {/* <Grid item xs={4}>
+                
                 5/5 Dolores porro laboriosam molestias est quo. Et et eos.
                 Ab error modi labore sed eaque est. Quaerat aut est fugiat.
                 Rafael Stokes
@@ -209,7 +223,7 @@ export default function Home() {
                 5/5 Dolores porro laboriosam molestias est quo. Et et eos.
                 Ab error modi labore sed eaque est. Quaerat aut est fugiat.
                 Rafael Stokes
-              </Grid>
+              </Grid> */}
             </Grid>
             <br />
             <br />

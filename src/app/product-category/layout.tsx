@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 
 import dynamic from "next/dynamic";
-import { Container, Grid } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 
 const Footer = dynamic(() => import("@/Layout/Partials/Footer"), {
   ssr: false,
@@ -26,12 +26,12 @@ export default function DashboardLayout({
       <CssBaseline />
       <Header />
       <Container>
-        <Grid container spacing={2} pt={1}>
+        <Grid container pt={1}>
           <Grid item xs={3}>
             <SideBar />
           </Grid>
           <Grid item xs={9}>
-          {children}
+            <Box pl={8}>{children}</Box>
           </Grid>
         </Grid>
       </Container>

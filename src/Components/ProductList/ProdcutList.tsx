@@ -16,8 +16,7 @@ export default function ProductList() {
 
 
   return (
-    <Card sx={{ maxWidth: 220 }}>
-   
+    <Card sx={{ maxWidth: 220 }}>   
        <div>
       <h1>{value}</h1>
       <button onClick={() => dispatch(increment())}>Increment</button>
