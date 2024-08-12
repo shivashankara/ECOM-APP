@@ -5,6 +5,9 @@ import MessageIcon from "@mui/icons-material/Message";
 import ReplayIcon from "@mui/icons-material/Replay";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 const serviceListArray = [
   {
     serviceName: "Free shipping",
@@ -41,7 +44,9 @@ export default function AvailableServices() {
             {serviceListArray.map((list) => {
               return (
                 <li key={list.id}>
-                  <LocalShippingIcon />
+                  {/* <LocalShippingIcon /> */}
+                 
+                  <FontAwesomeIcon icon="fas fa-shipping-fast" />
                   <div style={{ display: "flex", flexDirection: "column" }}>
                     <span>{list.serviceName}</span>
                     <span>{list.tittle}</span>
