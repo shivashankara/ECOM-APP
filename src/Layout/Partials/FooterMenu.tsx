@@ -1,5 +1,6 @@
 'use client';
 import { Container, Grid } from "@mui/material";
+import { FooterWrapper } from "./Footer.style";
 
 export default function FooterMenu() {
   return (
@@ -7,11 +8,12 @@ export default function FooterMenu() {
     <hr />
     <Container disableGutters={true} maxWidth="lg" >
       <Grid container spacing={2} pt={3} pb={3} mb={8}>
+        <FooterWrapper >
         <Grid item xs={3}>
-          Trader mark logo
+         <strong> Trader mark logo</strong>
         </Grid>
         <Grid item xs={3}>
-          Shop
+         <strong>Shop</strong> 
           <ul>
             <li>
               <a href="#">Hot deals</a>
@@ -31,7 +33,7 @@ export default function FooterMenu() {
           </ul>
         </Grid>
         <Grid item xs={3}>
-          Need help?
+         <strong>Need help?</strong> 
           <ul>
             <li>
               <a href="#">Contact</a>
@@ -51,11 +53,12 @@ export default function FooterMenu() {
           </ul>
         </Grid>
         <Grid item xs={3}>
-          Contact
+         <strong>Contact</strong> 
           <address>
             123 Fifth Avenue, New York, NY 10160 contact@info.com 929-242-6868
           </address>
         </Grid>
+        </FooterWrapper>
       </Grid>
     </Container>
     </>

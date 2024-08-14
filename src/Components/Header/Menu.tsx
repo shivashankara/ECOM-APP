@@ -8,7 +8,6 @@ import { MenuWrapper } from "./MenuStyle";
 import { response } from "@/Mock/response";
 
 
-
 export default function AppMenu() {
   const pathname = usePathname();
   return (

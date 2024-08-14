@@ -8,6 +8,9 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import BasicRating from "../Common/Rating";
 import { getCategory } from "./../../Services/Category/category-service";
+import Link from "next/link";
+import { CardWrapper } from "./styles";
+import { usePathname } from "next/navigation";
 
 export default function TodaysDealCard({ dealOftheDay, category }: any) {
   const getCategoryType = (param: string) => {
@@ -29,7 +32,7 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
         break;
       case "pc_laptop":
         return "pc_laptop";
-        break;
+        break;  
       case "gadget":
         return "gadget";
         break;
@@ -39,25 +42,36 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
         break;
     }
   };
+
+  const pathname = usePathname();
+
   return (
-    
-      <Card>
-        <CardMedia
-          sx={{ height: 120 }}
-          image={`${getCategoryType(category)}/${dealOftheDay.productImg}.jpg`}
-          title="image"
-        />
-        <CardContent>
-          <BasicRating count={dealOftheDay.rating} />
-          <Typography variant="body2" color="text.secondary">
-            {dealOftheDay.description}
-          </Typography>
-          <Typography variant="body1" color="text.secondary">
-            <s>$ {dealOftheDay.actualPrice} </s> &nbsp;
-            <strong>${dealOftheDay.offerPrice} </strong>
-          </Typography>
-        </CardContent>
-      </Card>
-    
+    <CardWrapper>
+      <Link
+        href={`${pathname === "/" ? "/product-category/product/" : "product/"}${
+          dealOftheDay.productName
+        }`}
+      >
+        <Card>
+          <CardMedia
+            sx={{ height: 120 }}
+            image={`/${getCategoryType(category)}/${
+              dealOftheDay.productImg
+            }.jpg`}
+            title="image"
+          />
+          <CardContent>
+            <BasicRating count={dealOftheDay.rating} mode={"readOnly"} />
+            <Typography variant="body2" color="text.secondary">
+              {dealOftheDay.description}
+            </Typography>
+            <Typography variant="body1" color="text.secondary">
+              <s>$ {dealOftheDay.actualPrice} </s> &nbsp;
+              <strong>${dealOftheDay.offerPrice} </strong>
+            </Typography>
+          </CardContent>
+        </Card>
+      </Link>
+    </CardWrapper>
   );
 }

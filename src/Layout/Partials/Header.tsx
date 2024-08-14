@@ -5,11 +5,13 @@ import { Grid, Link } from "@mui/material";
 import Paper from "@mui/material/Paper";
 import CustomerSupport from "../../Components/Header/CustomerSupport";
 import ShipAndReturn from "../../Components/Header/ShipAndReturn";
-import { HeaderStyle } from "./Header.style";
+import { HeaderStyle, LoginButtonBox } from "./Header.style";
 import SearchInput from "@/Components/Header/SearchComponent";
 import AppMenu from "@/Components/Header/Menu";
 import Image from "next/image";
 import SimpleBadge from "@/Components/Badge/badge";
+
+
 
 export default function Header() {
   return (
@@ -33,9 +35,12 @@ export default function Header() {
                 href="/"
                 style={{ color: "white", fontWeight: "800", fontSize: "20px" }}
               >
-              <Image src="/electronic-store-logo.svg" alt="logo"  height={30}
-        width={120} />
-             
+                <Image
+                  src="/electronic-store-logo.svg"
+                  alt="logo"
+                  height={30}
+                  width={120}
+                />
               </Link>
             </Grid>
             <Grid item xs={6}>
@@ -43,22 +48,31 @@ export default function Header() {
             </Grid>
           </Grid>
 
-          {/* header Menu */}           
+          {/* header Menu */}
           <Grid container spacing={2}>
             <Grid item xs={10}>
               <AppMenu />
             </Grid>
             <Grid item xs={2}>
-              <ul>  
+              <LoginButtonBox>
+              <ul>
                 <li>
-                <SimpleBadge /> 
+                  <SimpleBadge />
                 </li>
                 <li>
-                <Link href="/login" style={{color:'white', fontWeight:'bold', marginLeft:'20px'}}>Login</Link>
+                  <Link
+                    href="/login"
+                    style={{
+                      color: "white",
+                      fontWeight: "bold",
+                      marginLeft: "20px",
+                    }}
+                  >
+                    Login
+                  </Link>
                 </li>
               </ul>
-            
-             
+              </LoginButtonBox>
             </Grid>
           </Grid>
         </HeaderStyle>
