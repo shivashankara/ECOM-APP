@@ -6,17 +6,21 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MenuWrapper } from "./MenuStyle";
 import { response } from "@/Mock/response";
-
+import { useDispatch } from "react-redux";
+import { updateMenu } from "@/Redux/Slices/slice";
 
 export default function AppMenu() {
   const pathname = usePathname();
+
   return (
     <React.Fragment>
       <MenuWrapper>
         {response?.category.map((menu) => {
           return (
-            <Link
-              className={`link ${pathname === menu.categoryName} ? "active" : ""}`}
+            <Link key={menu.id}
+              className={`link ${
+                pathname === menu.categoryName
+              } ? "active" : ""}`}
               href={`/product-category/${menu.navUrl}`}
             >
               {menu.categoryName}

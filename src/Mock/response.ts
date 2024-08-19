@@ -1,7 +1,7 @@
 export const response = {
   category: [
     {
-      id: "001",
+      id: "3575596542",
       productName: "myProduct3745591110",
       categoryName: "Air conditioner",
       imageurl: "1",
@@ -9,7 +9,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "001",
+      id: "3081036353",
       productName: "myProduct2224706209",
       categoryName: "Audio & video",
       imageurl: "2",
@@ -17,7 +17,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "001",
+      id: "2028676437",
       productName: "myProduct1573843196",
       categoryName: "Gadgets",
       imageurl: "3",
@@ -25,7 +25,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "001",
+      id: "1797218835",
       productName: "myProduct2889626830",
       categoryName: "Home appliances",
       imageurl: "4",
@@ -33,7 +33,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "002",
+      id: "91595617",
       productName: "myProduct2293700630",
       categoryName: "Kitchen appliances",
       imageurl: "5",
@@ -41,7 +41,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "003",
+      id: "2977842029",
       productName: "myProduct2533675000",
       categoryName: "Refrigerator",
       imageurl: "6",
@@ -49,7 +49,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "004",
+      id: "308371202",
       productName: "myProduct2698401134",
       categoryName: "Smart home",
       imageurl: "7",
@@ -57,7 +57,7 @@ export const response = {
       items: [{}, {}, {}, {}],
     },
     {
-      id: "005",
+      id: "3388637494",
       productName: "myProduct393933810",
       categoryName: "PCs & laptop",
       imageurl: "8",
@@ -71,6 +71,7 @@ export const response = {
       productName: "myProduct2109052334",
       productImg: "deal1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'PSbRMJytLMBcMipuLcPcyjNsQoObWgEmtepnqYAHUvPoY',
       keyFeatures:[
@@ -89,6 +90,7 @@ export const response = {
       productName: "myProduct4162976817",
       productImg: "deal2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'xMKtOxVkYWgNYiBnnRUzobEdDquuSnDyKpRZTZvLDTZut',
       keyFeatures:[
@@ -107,6 +109,7 @@ export const response = {
       productName: "myProduct439433716",
       productImg: "deal3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'xSTAjeNrBtyDqIYOIrjUXovVrbkkvxURPZjGidaeQNNCf',
       keyFeatures:[
@@ -125,6 +128,7 @@ export const response = {
       productName: "myProduct261853769",
       productImg: "deal4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'PVwwELgPNmYYpGXGLssVJsILWQJVBVLTaPotcVBbPwsgm',
       keyFeatures:[
@@ -143,6 +147,7 @@ export const response = {
       productName: "myProduct1703958840",
       productImg: "deal5",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'nBaHuFPHiMXykJDCjLslIZKpCGYDGbRZfbjaIhiiVOlEY',
       keyFeatures:[
@@ -161,6 +166,7 @@ export const response = {
       productName: "myProduct418281125",
       productImg: "deal6",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'hZIqPDXxGqHASiYtyrbSFiZPcOnrnzCLWdtvieswDtBLB',
       keyFeatures:[
@@ -179,6 +185,7 @@ export const response = {
       productName: "myProduct1064759996",
       productImg: "deal7",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'VGTBsaXmjnKwgOeiDeDfcOCxKiYNziMtYHziSRBdixHDd',
       keyFeatures:[
@@ -197,6 +204,7 @@ export const response = {
       productName: "myProduct3829266609",
       productImg: "deal8",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'WJRaeFhwoELkredfQKrRGZTabXGPECdIAJdMbFBjTGNzl',
       keyFeatures:[
@@ -217,6 +225,7 @@ export const response = {
       productName: "myProduct4055509368",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'kaNIHqYQxaqLauFwabIfylechcefkmiJqowKYblqixVao',
       keyFeatures:[
@@ -235,6 +244,7 @@ export const response = {
       productName: "myProduct1635755366",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'tqOGtkIkRyhMmCkDBuXIELUnGvVOpXxmvttkqucrjIKJZ',
       keyFeatures:[
@@ -253,6 +263,7 @@ export const response = {
       productName: "myProduct3713867137",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'BRUomeupIIHGpOHHFmaCqjLnrATjnfkfebbJJPHBLTfqg',
       keyFeatures:[
@@ -271,6 +282,7 @@ export const response = {
       productName: "myProduct3140868235",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'dccSVHldyLQxpASNSZazEBoBlINOQlqmltUJzJjPoIhhd',
       keyFeatures:[
@@ -291,6 +303,7 @@ export const response = {
       productName: "myProduct826707485",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'sExbupRUXdUNBzLfZmbrgmzjadENjzWvAzSkwKRjxthDU',
       keyFeatures:[
@@ -309,6 +322,7 @@ export const response = {
       productName: "myProduct3969775583",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'yDUVBbwbWezKXyKwdAqNMYDIYqrCEFMjCHADrCwKTbnfN',
       keyFeatures:[
@@ -327,6 +341,7 @@ export const response = {
       productName: "myProduct3341796472",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'ZBewxfDHLCMqgvgRjVBvQoEhNASYGRfNENEISeBZwFHzr',
       keyFeatures:[
@@ -345,6 +360,7 @@ export const response = {
       productName: "myProduct71644868",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'lcfwZNapssxJEjuUaokiSCHmZFfYZFENZUJEylqeCdwDU',
       keyFeatures:[
@@ -365,6 +381,7 @@ export const response = {
       productName: "myProduct691487129",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'YYxjQqmZXRiWGmnJjNDkoMNfzxEEGkllzzQhhQzjbdYMZ',
       keyFeatures:[
@@ -383,6 +400,7 @@ export const response = {
       productName: "myProduct1288061754",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'HSZZNuxHVoQyozwLkbdNPIhhEVViyOLYPkaEIIuFkXjSO',
       keyFeatures:[
@@ -401,6 +419,7 @@ export const response = {
       productName: "myProduct51037303",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'KLaXqpgqDHjrINLkMxaFbqetSDaoPgevjszFkpHJaHSoP',
       keyFeatures:[
@@ -419,6 +438,7 @@ export const response = {
       productName: "myProduct640926557",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'ZwUjtwxJtfnzbfcRXbYqcRFfPRGEILUWtZvYMVlaiFmti',
       keyFeatures:[
@@ -439,6 +459,7 @@ export const response = {
       productName: "myProduct2568668618",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'jDeNmtFtJfHBynmdFWGYRRkzquoTwnwtqpWDdTyypACdC',
       keyFeatures:[
@@ -457,6 +478,7 @@ export const response = {
       productName: "myProduct447789040",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:12,
       actualPrice: 7879,
       productTittle:'TkamOBAoxVurObskZbclAmwGMKAYQSTWQJfwnfNXSRKTV',
       keyFeatures:[
@@ -475,6 +497,7 @@ export const response = {
       productName: "myProduct1208010849",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'vwlSAyfIqwnixoMYRvKVaXcHOXQSaIXqNfAKQaCdwWCgA',
       keyFeatures:[
@@ -493,6 +516,7 @@ export const response = {
       productName: "myProduct3655438451",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'WcNOQuRsRJIZgBdNHJKuxdoDPRxbpAoKzqqzrgnIfiBRo',
       keyFeatures:[
@@ -513,6 +537,7 @@ export const response = {
       productName: "myProduct714373574",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'GmKWFmazFwTqFkWxhXXbGvbuxFrFhRDOEQQAhLrkWVUyf',
       keyFeatures:[
@@ -531,6 +556,7 @@ export const response = {
       productName: "myProduct1131700128",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'eQzxzVNivYeaSSfovWhPKNXltaIpPGQqZDiFKMcqvpqxq',
       keyFeatures:[
@@ -549,6 +575,7 @@ export const response = {
       productName: "myProduct2476138547",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'TWTGRTlioiwxmCiLWtJgkPkuFqxMleOvzuuxSeXoUeoRj',
       keyFeatures:[
@@ -567,6 +594,7 @@ export const response = {
       productName: "myProduct3958818380",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'IQewTCPuclwfXuVvXFjPCuoJbmTxWQApRODQezksZebti',
       keyFeatures:[
@@ -587,6 +615,7 @@ export const response = {
       productName: "myProduct3058084947",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'EiCldxUBuMqyEqqDTfrkPShEWLHxAabgGJFQYBHlaElMz',
       keyFeatures:[
@@ -605,6 +634,7 @@ export const response = {
       productName: "myProduct2531598306",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'JRbeCQOHQnuGWhEqJrJryIUrLxIFIewDGcpepGMHMkBEY',
       keyFeatures:[
@@ -623,6 +653,7 @@ export const response = {
       productName: "myProduct983997188",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'pokwgvqzzPjtwKipPdJLaHEsefEbniSAGmWmiOxuXpclG',
       keyFeatures:[
@@ -641,6 +672,7 @@ export const response = {
       productName: "myProduct2984961620",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'rsaBwYPYenzwbYaTFEVyjiodujAIzwvOzlhYQsbIMpRGC',
       keyFeatures:[
@@ -661,6 +693,7 @@ export const response = {
       productName: "myProduct1751604325",
       productImg: "a_v1",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'SRxkWruoJcnXBWCxzEOTXhArsLfCSPeaixSFJfiGcZycq',
       keyFeatures:[
@@ -679,6 +712,7 @@ export const response = {
       productName: "myProduct2446184195",
       productImg: "a_v2",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'NtZOWUJkbvnSFyYHgJzwaiHRaTGDqsBxpboHGYSXXsBap',
       keyFeatures:[
@@ -697,6 +731,7 @@ export const response = {
       productName: "myProduct2418154029",
       productImg: "a_v3",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'xuMMwCBglzpYUDnWqsvmuxsFAJFSBNZmHcLeyDLneWbaC',
       keyFeatures:[
@@ -715,6 +750,7 @@ export const response = {
       productName: "myProduct3863578599",
       productImg: "a_v4",
       offerPrice: 1123,
+      buyQuantity:1,
       actualPrice: 7879,
       productTittle:'gduHTPQieiYVywezcuVgZKhJCnRKpFQsJYOSQnNQywVXR',
       keyFeatures:[

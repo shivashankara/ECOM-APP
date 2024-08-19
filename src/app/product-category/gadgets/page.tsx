@@ -1,8 +1,11 @@
 "use client";
 import { response } from "@/Mock/response";
-import ProductPageTemplate from "../template-old";
+import ProductPageTemplate from "../template";
+import { useSelector } from "react-redux";
 
 export default function Page() {
+  // const state = useSelector((state)=>state);
+  // console.log('state', state)
   const { gadget } = response;
   return (
     <>

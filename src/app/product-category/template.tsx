@@ -40,7 +40,7 @@ export default function ProductPageTemplate({
       </>
     )}
    
-    {children}
+    {children} 
     </>
   );
 }

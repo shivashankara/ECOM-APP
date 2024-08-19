@@ -39,9 +39,6 @@ export default function DashboardLayout({
             </Grid>
           </Grid>
         ):children}
-        
-
-      
       </Container>
       <Footer />
     </section>

@@ -3,9 +3,11 @@
 import CartButton from "@/Components/CartButton/CartButton";
 import ProductImageGallery from "@/Components/ProductImageGallery/productImageGallery";
 import { getProduct } from "@/helper/productDetailsHelper";
+import { addToCart } from "@/Redux/Slices/slice";
 import { Grid, Container, Typography, Button } from "@mui/material";
 
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const [product, setProduct] = useState<any>(null);
@@ -15,6 +17,11 @@ export default function Page({ params }: { params: { slug: string } }) {
       setProduct(res);
     }
   }, [product]);
+  const dispatch = useDispatch();
+  
+  const addItem = (item: any) => {
+    console.log("item", item)
+    dispatch(addToCart(item))  };
 
   return (
     <>
@@ -37,8 +44,8 @@ export default function Page({ params }: { params: { slug: string } }) {
               })}
             </ul>
             <div style={{display:'flex', gap:'15px'}}>
-              <CartButton />
-              <Button variant="contained" >Add to cart</Button>
+              <CartButton buyQty={product.buyQuantity} />
+              <Button variant="contained" onClick={()=>addItem(product)} >Add to cart</Button>
             </div>
             <hr />
             <Typography variant="body1"> Category: Home appliances</Typography>

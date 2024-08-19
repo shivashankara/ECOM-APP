@@ -5,8 +5,8 @@ import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { AddtoCartWrapper } from "./CartButtonStyle";
 
-export default function CartButton() {
-  const [count, setCount] = useState(1);
+export default function CartButton({buyQty}:any) {
+  const [count, setCount] = useState(buyQty);
 
   const handleIncrease = () => {
     setCount(count + 1);

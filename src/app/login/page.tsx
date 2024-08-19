@@ -13,8 +13,7 @@ import Link from '@mui/joy/Link';
 
 export default function LoginFinal() {
   return (
-    <main>
-     
+    <>     
       <CssBaseline />
       <Sheet
         sx={{
@@ -64,6 +63,6 @@ export default function LoginFinal() {
           Don&apos;t have an account?
         </Typography>
       </Sheet>
-    </main>
+    </>
   );
 }

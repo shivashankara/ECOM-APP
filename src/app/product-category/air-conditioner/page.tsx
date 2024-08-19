@@ -2,7 +2,7 @@
 
 import { response } from "@/Mock/response";
 
-import ProductPageTemplate from "../template-old";
+import ProductPageTemplate from "../template";
 
 export default function Page() {
   const { a_c } = response;

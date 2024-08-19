@@ -9,7 +9,5 @@ const store = configureStore({
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
-if (typeof window !== 'undefined') {
-  window.store = store.getState(); // Exposing store for debugging
-}
+
 export default store;

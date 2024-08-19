@@ -25,8 +25,7 @@ const AvailableServices = dynamic(
   { ssr: false }
 );
 
-import { Provider } from "react-redux";
-import store from "@/Redux/store";
+
 import Category from "@/Components/Category/category";
 import { response } from "@/Mock/response";
 import Typography from "@mui/material/Typography";
@@ -34,13 +33,12 @@ import TodaysDealCard from "@/Components/TodaysDeal/TodaysDealCard";
 import BrandLogo from "@/Components/BrandLogo/BrandLogo";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 
-// console.log("state",window.store)
 export default function Home() {
   const productListArray = Array.from({ length: 3 });
   return (
     <>
       <React.Fragment>
-        <Provider store={store}>
+       
           <CssBaseline />
           <Header />
           <Banner />
@@ -109,7 +107,7 @@ export default function Home() {
               </BoxWrapper>
             </Grid>
 
-            {/* <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
+            <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
               <Grid container pt={1}>
                 <Grid item xs={12}>
                   <div>New Arrivals</div>
@@ -120,7 +118,7 @@ export default function Home() {
                   </Grid>
                 ))}
               </Grid>
-            </BoxWrapper> */}
+            </BoxWrapper>
 
             {/* <BoxWrapper style={{ display: "flex", marginTop: "16px" }}>
               <Grid container pt={1}>
@@ -231,7 +229,7 @@ export default function Home() {
           </Container>
 
           <Footer />
-        </Provider>
+      
       </React.Fragment>
     </>
   );

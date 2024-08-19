@@ -7,10 +7,13 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import BasicRating from "../Common/Rating";
-import { getCategory } from "./../../Services/Category/category-service";
+
 import Link from "next/link";
 import { CardWrapper } from "./styles";
 import { usePathname } from "next/navigation";
+import { useDispatch } from "react-redux";
+import { addToCart } from "@/Redux/Slices/slice";
+
 
 export default function TodaysDealCard({ dealOftheDay, category }: any) {
   const getCategoryType = (param: string) => {
@@ -32,7 +35,7 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
         break;
       case "pc_laptop":
         return "pc_laptop";
-        break;  
+        break;
       case "gadget":
         return "gadget";
         break;
@@ -44,7 +47,13 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
   };
 
   const pathname = usePathname();
+  const dispatch = useDispatch();
 
+  const addItem = (item: any) => {
+    console.log("item", item)
+    dispatch(addToCart(item));
+  };
+  
   return (
     <CardWrapper>
       <Link
@@ -69,6 +78,13 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
               <s>$ {dealOftheDay.actualPrice} </s> &nbsp;
               <strong>${dealOftheDay.offerPrice} </strong>
             </Typography>
+            <button
+              onClick={() => {
+                addItem(dealOftheDay);
+              }}
+            >
+              Add to Cart
+            </button>
           </CardContent>
         </Card>
       </Link>
