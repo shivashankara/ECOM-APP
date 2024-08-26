@@ -116,7 +116,7 @@ export default function CartTable() {
               </TableCell>
               <TableCell align="right">$ {row.offerPrice}</TableCell>
               <TableCell align="right">
-                <CartButton />
+                <CartButton buyQty={row.rating} />
                  {row.rating}
                  </TableCell>
               <TableCell align="right">$ {row.offerPrice*row.rating}</TableCell>

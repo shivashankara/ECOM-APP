@@ -11,7 +11,7 @@ export const response = {
     {
       id: "3081036353",
       productName: "myProduct2224706209",
-      categoryName: "Audio & video",
+      categoryName: "Audio & vedio",
       imageurl: "2",
       navUrl: "audio-video",
       items: [{}, {}, {}, {}],

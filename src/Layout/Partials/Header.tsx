@@ -10,10 +10,17 @@ import SearchInput from "@/Components/Header/SearchComponent";
 import AppMenu from "@/Components/Header/Menu";
 import Image from "next/image";
 import SimpleBadge from "@/Components/Badge/badge";
-
-
+import CartDrawer from "@/Components/CartDrawer/CartDrawer";
+import { useState } from "react";
 
 export default function Header() {
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDrawer = (open: boolean) => () => {
+    setIsOpen(open);
+  };
+
   return (
     <Box sx={{ bgcolor: "#0769da" }}>
       <Container disableGutters={true} maxWidth="lg">
@@ -55,23 +62,24 @@ export default function Header() {
             </Grid>
             <Grid item xs={2}>
               <LoginButtonBox>
-              <ul>
-                <li>
-                  <SimpleBadge />
-                </li>
-                <li>
-                  <Link
-                    href="/login"
-                    style={{
-                      color: "white",
-                      fontWeight: "bold",
-                      marginLeft: "20px",
-                    }}
-                  >
-                    Login
-                  </Link>
-                </li>
-              </ul>
+                <CartDrawer isOpen={isOpen} toggleDrawer={toggleDrawer} />
+                <ul>
+                  <li onClick={() => setIsOpen(!isOpen)}>
+                    <SimpleBadge />
+                  </li>
+                  <li>
+                    <Link
+                      href="/login"
+                      style={{
+                        color: "white",
+                        fontWeight: "bold",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      Login
+                    </Link>
+                  </li>
+                </ul>
               </LoginButtonBox>
             </Grid>
           </Grid>
