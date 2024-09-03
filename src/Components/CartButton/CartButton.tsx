@@ -1,22 +1,37 @@
 'use client'
-import React, { useState } from "react";
-import { Button, IconButton, Typography } from "@mui/material";
+import React, { useEffect, useState } from "react";
+import { Button,  Typography } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { AddtoCartWrapper } from "./CartButtonStyle";
+import { useDispatch, useSelector } from "react-redux";
+import { updateCartQuantity } from "@/Redux/Slices/slice";
 
-export default function CartButton({buyQty}:any) {
+type CardButtonProps={
+  buyQty:number, 
+  id?:string
+}
+
+export default function CartButton({buyQty, id}:CardButtonProps) {
+  const cartQty =useSelector((state:any)=>state.appState.cartInformation)
   const [count, setCount] = useState(buyQty);
-
+ const dispatch = useDispatch()
+ 
   const handleIncrease = () => {
-    setCount(count + 1);
+    const newCount = count +1;
+    setCount(newCount);
+    dispatch(updateCartQuantity({id, newCount}))
   };
 
   const handleDecrease = () => {
-    if (count > 0) {
-      setCount(count - 1);
+    if (count > 1) {
+      const newCount = count - 1;
+      setCount(newCount);
+      dispatch(updateCartQuantity({id, newCount})); 
     }
   };
+
+  
   return (
     <AddtoCartWrapper>
       <Button

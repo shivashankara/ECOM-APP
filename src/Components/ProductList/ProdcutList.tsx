@@ -16,13 +16,12 @@ export default function ProductList() {
   const dispatch = useDispatch();
  
   return (
-    <Card sx={{ maxWidth: 220 }}>
-   
-      <div>
+    <Card>   
+      {/* <div>
         <h1>{value}</h1>
         <button onClick={() => dispatch(increment())}>Increment</button>
         <button onClick={() => dispatch(decrement())}>Decrement</button>
-      </div>
+      </div> */}
       <CardMedia
         sx={{ height: 140 }}
         image="https://picsum.photos/200/300"

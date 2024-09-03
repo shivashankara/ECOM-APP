@@ -13,11 +13,10 @@ import { CardWrapper } from "./styles";
 import { usePathname } from "next/navigation";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/Redux/Slices/slice";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'; 
-
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 export default function TodaysDealCard({ dealOftheDay, category }: any) {
-  const [ishoverd, setIshoverd] = React.useState(false)
+  const [ishoverd, setIshoverd] = React.useState(false);
   const getCategoryType = (param: string) => {
     switch (param) {
       case "bestDeal":
@@ -51,13 +50,11 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
   const pathname = usePathname();
   const dispatch = useDispatch();
 
-  const addItem = (e:any ,item: any) => {
+  const addItem = (e: any, item: any) => {
     e.preventDefault();
     dispatch(addToCart(item));
   };
 
-
-  
   return (
     <CardWrapper>
       <Link
@@ -65,29 +62,29 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
           dealOftheDay.productName
         }`}
       >
-        <Card 
-         onMouseEnter={() => setIshoverd(true)}
-         onMouseLeave={() => setIshoverd(false)}
-         sx={{ position: "relative" }} 
-         >
+        <Card
+          onMouseEnter={() => setIshoverd(true)}
+          onMouseLeave={() => setIshoverd(false)}
+          sx={{ position: "relative" }}
+        >
           {ishoverd && (
-             <ShoppingCartIcon
-             fontSize="large"
-             onClick={(e) => {
-              addItem(e,dealOftheDay);
-            }}
-             sx={{
-               position: "absolute",
-               top: 10,
-               right: 10,
-               color: "black",
-               backgroundColor: "white",
-               border:"0.01rem solid grey",
-               boxShadow:"1px 2px 2px 4px #00000",
-               borderRadius: "50%",
-               padding: "5px",
-             }}
-           />
+            <ShoppingCartIcon
+              fontSize="large"
+              onClick={(e) => {
+                addItem(e, dealOftheDay);
+              }}
+              sx={{
+                position: "absolute",
+                top: 10,
+                right: 10,
+                color: "black",
+                backgroundColor: "white",
+                border: "0.01rem solid grey",
+                boxShadow: "1px 2px 2px 4px #00000",
+                borderRadius: "50%",
+                padding: "5px",
+              }}
+            />
           )}
           <CardMedia
             sx={{ height: 120 }}
@@ -105,7 +102,6 @@ export default function TodaysDealCard({ dealOftheDay, category }: any) {
               <s>$ {dealOftheDay.actualPrice} </s> &nbsp;
               <strong>${dealOftheDay.offerPrice} </strong>
             </Typography>
-            
           </CardContent>
         </Card>
       </Link>

@@ -26,32 +26,34 @@ export default function Page({ params }: { params: { slug: string } }) {
   return (
     <>
       {product && (
-        // <Container disableGutters >
+        <Container disableGutters maxWidth="xl"  >
         <Grid container spacing={2} pt={2}>
           <Grid item sm={6}>
             <ProductImageGallery />
           </Grid>
 
           <Grid item sm={6}>
-            <strong style={{ fontWeight: "800", fontSize: "24px" }}>
+           
+            <Typography variant="h5" fontWeight={'400'} style={{overflowWrap:'anywhere'}} >
               {product?.productTittle}
-            </strong>
+            </Typography>
+           
             <s>${product.actualPrice}</s> <span>${product.offerPrice}</span>
             <b>Key features</b>
             <ul>
               {product.keyFeatures.map((feat: string, index: number) => {
                 return <li key={index}>{feat}</li>;
               })}
-            </ul>
+            </ul> 
             <div style={{display:'flex', gap:'15px'}}>
-              <CartButton buyQty={product.buyQuantity} />
+              <CartButton buyQty={product.buyQuantity}   id={product.id}/>
               <Button variant="contained" onClick={()=>addItem(product)} >Add to cart</Button>
             </div>
             <hr />
             <Typography variant="body1"> Category: Home appliances</Typography>
           </Grid>
         </Grid>
-        // </Container>
+        </Container>
       )}
     </>
   );
