@@ -30,6 +30,7 @@ import Typography from "@mui/material/Typography";
 import TodaysDealCard from "@/Components/TodaysDeal/TodaysDealCard";
 import BrandLogo from "@/Components/BrandLogo/BrandLogo";
 import Testimonial from "@/Components/Testimonial/Testimonial";
+// import { CountApp } from "./TimerApplication/Page";
 
 export default function Home() {
   const productListArray = Array.from({ length: 4 });
@@ -43,6 +44,7 @@ export default function Home() {
         <Container disableGutters={true}>
           <Grid container mt={4}>
             <BoxWrapper mb={4}>
+            {/* <CountApp /> */}
               {response.category.map((cat) => {
                 return (
                   <Grid item xs={3}>
