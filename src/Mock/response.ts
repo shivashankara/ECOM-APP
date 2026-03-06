@@ -71,15 +71,15 @@ export const response = {
       productName: "myProduct2109052334",
       productImg: "deal1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'PSbRMJytLMBcMipuLcPcyjNsQoObWgEmtepnqYAHUvPoY',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "PSbRMJytLMBcMipuLcPcyjNsQoObWgEmtepnqYAHUvPoY",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -90,15 +90,15 @@ export const response = {
       productName: "myProduct4162976817",
       productImg: "deal2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'xMKtOxVkYWgNYiBnnRUzobEdDquuSnDyKpRZTZvLDTZut',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "xMKtOxVkYWgNYiBnnRUzobEdDquuSnDyKpRZTZvLDTZut",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -109,15 +109,15 @@ export const response = {
       productName: "myProduct439433716",
       productImg: "deal3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'xSTAjeNrBtyDqIYOIrjUXovVrbkkvxURPZjGidaeQNNCf',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "xSTAjeNrBtyDqIYOIrjUXovVrbkkvxURPZjGidaeQNNCf",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -128,15 +128,15 @@ export const response = {
       productName: "myProduct261853769",
       productImg: "deal4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'PVwwELgPNmYYpGXGLssVJsILWQJVBVLTaPotcVBbPwsgm',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "PVwwELgPNmYYpGXGLssVJsILWQJVBVLTaPotcVBbPwsgm",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -147,15 +147,15 @@ export const response = {
       productName: "myProduct1703958840",
       productImg: "deal5",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'nBaHuFPHiMXykJDCjLslIZKpCGYDGbRZfbjaIhiiVOlEY',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "nBaHuFPHiMXykJDCjLslIZKpCGYDGbRZfbjaIhiiVOlEY",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 1,
       description:
@@ -166,15 +166,15 @@ export const response = {
       productName: "myProduct418281125",
       productImg: "deal6",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'hZIqPDXxGqHASiYtyrbSFiZPcOnrnzCLWdtvieswDtBLB',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "hZIqPDXxGqHASiYtyrbSFiZPcOnrnzCLWdtvieswDtBLB",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 5,
       description:
@@ -185,15 +185,15 @@ export const response = {
       productName: "myProduct1064759996",
       productImg: "deal7",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'VGTBsaXmjnKwgOeiDeDfcOCxKiYNziMtYHziSRBdixHDd',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "VGTBsaXmjnKwgOeiDeDfcOCxKiYNziMtYHziSRBdixHDd",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -204,15 +204,15 @@ export const response = {
       productName: "myProduct3829266609",
       productImg: "deal8",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'WJRaeFhwoELkredfQKrRGZTabXGPECdIAJdMbFBjTGNzl',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "WJRaeFhwoELkredfQKrRGZTabXGPECdIAJdMbFBjTGNzl",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -225,15 +225,15 @@ export const response = {
       productName: "myProduct4055509368",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'kaNIHqYQxaqLauFwabIfylechcefkmiJqowKYblqixVao',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "kaNIHqYQxaqLauFwabIfylechcefkmiJqowKYblqixVao",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -244,15 +244,15 @@ export const response = {
       productName: "myProduct1635755366",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'tqOGtkIkRyhMmCkDBuXIELUnGvVOpXxmvttkqucrjIKJZ',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "tqOGtkIkRyhMmCkDBuXIELUnGvVOpXxmvttkqucrjIKJZ",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -263,15 +263,15 @@ export const response = {
       productName: "myProduct3713867137",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'BRUomeupIIHGpOHHFmaCqjLnrATjnfkfebbJJPHBLTfqg',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "BRUomeupIIHGpOHHFmaCqjLnrATjnfkfebbJJPHBLTfqg",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -282,15 +282,15 @@ export const response = {
       productName: "myProduct3140868235",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'dccSVHldyLQxpASNSZazEBoBlINOQlqmltUJzJjPoIhhd',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "dccSVHldyLQxpASNSZazEBoBlINOQlqmltUJzJjPoIhhd",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -303,15 +303,15 @@ export const response = {
       productName: "myProduct826707485",
       productImg: "a_v1",
       offerPrice: 100,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'sExbupRUXdUNBzLfZmbrgmzjadENjzWvAzSkwKRjxthDU',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "sExbupRUXdUNBzLfZmbrgmzjadENjzWvAzSkwKRjxthDU",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -322,15 +322,15 @@ export const response = {
       productName: "myProduct3969775583",
       productImg: "a_v2",
       offerPrice: 500,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'yDUVBbwbWezKXyKwdAqNMYDIYqrCEFMjCHADrCwKTbnfN',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "yDUVBbwbWezKXyKwdAqNMYDIYqrCEFMjCHADrCwKTbnfN",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -341,15 +341,15 @@ export const response = {
       productName: "myProduct3341796472",
       productImg: "a_v3",
       offerPrice: 800,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'ZBewxfDHLCMqgvgRjVBvQoEhNASYGRfNENEISeBZwFHzr',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "ZBewxfDHLCMqgvgRjVBvQoEhNASYGRfNENEISeBZwFHzr",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -360,15 +360,15 @@ export const response = {
       productName: "myProduct71644868",
       productImg: "a_v4",
       offerPrice: 1200,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'lcfwZNapssxJEjuUaokiSCHmZFfYZFENZUJEylqeCdwDU',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "lcfwZNapssxJEjuUaokiSCHmZFfYZFENZUJEylqeCdwDU",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -381,15 +381,15 @@ export const response = {
       productName: "myProduct691487129",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'YYxjQqmZXRiWGmnJjNDkoMNfzxEEGkllzzQhhQzjbdYMZ',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "YYxjQqmZXRiWGmnJjNDkoMNfzxEEGkllzzQhhQzjbdYMZ",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -400,15 +400,15 @@ export const response = {
       productName: "myProduct1288061754",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'HSZZNuxHVoQyozwLkbdNPIhhEVViyOLYPkaEIIuFkXjSO',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "HSZZNuxHVoQyozwLkbdNPIhhEVViyOLYPkaEIIuFkXjSO",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -419,15 +419,15 @@ export const response = {
       productName: "myProduct51037303",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'KLaXqpgqDHjrINLkMxaFbqetSDaoPgevjszFkpHJaHSoP',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "KLaXqpgqDHjrINLkMxaFbqetSDaoPgevjszFkpHJaHSoP",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -438,15 +438,15 @@ export const response = {
       productName: "myProduct640926557",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'ZwUjtwxJtfnzbfcRXbYqcRFfPRGEILUWtZvYMVlaiFmti',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "ZwUjtwxJtfnzbfcRXbYqcRFfPRGEILUWtZvYMVlaiFmti",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -459,15 +459,15 @@ export const response = {
       productName: "myProduct2568668618",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'jDeNmtFtJfHBynmdFWGYRRkzquoTwnwtqpWDdTyypACdC',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "jDeNmtFtJfHBynmdFWGYRRkzquoTwnwtqpWDdTyypACdC",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -478,15 +478,15 @@ export const response = {
       productName: "myProduct447789040",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:12,
+      buyQuantity: 12,
       actualPrice: 7879,
-      productTittle:'TkamOBAoxVurObskZbclAmwGMKAYQSTWQJfwnfNXSRKTV',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "TkamOBAoxVurObskZbclAmwGMKAYQSTWQJfwnfNXSRKTV",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -497,15 +497,15 @@ export const response = {
       productName: "myProduct1208010849",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'vwlSAyfIqwnixoMYRvKVaXcHOXQSaIXqNfAKQaCdwWCgA',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "vwlSAyfIqwnixoMYRvKVaXcHOXQSaIXqNfAKQaCdwWCgA",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -516,15 +516,15 @@ export const response = {
       productName: "myProduct3655438451",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'WcNOQuRsRJIZgBdNHJKuxdoDPRxbpAoKzqqzrgnIfiBRo',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "WcNOQuRsRJIZgBdNHJKuxdoDPRxbpAoKzqqzrgnIfiBRo",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -537,15 +537,15 @@ export const response = {
       productName: "myProduct714373574",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'GmKWFmazFwTqFkWxhXXbGvbuxFrFhRDOEQQAhLrkWVUyf',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "GmKWFmazFwTqFkWxhXXbGvbuxFrFhRDOEQQAhLrkWVUyf",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -556,15 +556,15 @@ export const response = {
       productName: "myProduct1131700128",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'eQzxzVNivYeaSSfovWhPKNXltaIpPGQqZDiFKMcqvpqxq',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "eQzxzVNivYeaSSfovWhPKNXltaIpPGQqZDiFKMcqvpqxq",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -575,15 +575,15 @@ export const response = {
       productName: "myProduct2476138547",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'TWTGRTlioiwxmCiLWtJgkPkuFqxMleOvzuuxSeXoUeoRj',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "TWTGRTlioiwxmCiLWtJgkPkuFqxMleOvzuuxSeXoUeoRj",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -594,15 +594,15 @@ export const response = {
       productName: "myProduct3958818380",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'IQewTCPuclwfXuVvXFjPCuoJbmTxWQApRODQezksZebti',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "IQewTCPuclwfXuVvXFjPCuoJbmTxWQApRODQezksZebti",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -615,15 +615,15 @@ export const response = {
       productName: "myProduct3058084947",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'EiCldxUBuMqyEqqDTfrkPShEWLHxAabgGJFQYBHlaElMz',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "EiCldxUBuMqyEqqDTfrkPShEWLHxAabgGJFQYBHlaElMz",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -634,15 +634,15 @@ export const response = {
       productName: "myProduct2531598306",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'JRbeCQOHQnuGWhEqJrJryIUrLxIFIewDGcpepGMHMkBEY',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "JRbeCQOHQnuGWhEqJrJryIUrLxIFIewDGcpepGMHMkBEY",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -653,15 +653,15 @@ export const response = {
       productName: "myProduct983997188",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'pokwgvqzzPjtwKipPdJLaHEsefEbniSAGmWmiOxuXpclG',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "pokwgvqzzPjtwKipPdJLaHEsefEbniSAGmWmiOxuXpclG",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -672,15 +672,15 @@ export const response = {
       productName: "myProduct2984961620",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'rsaBwYPYenzwbYaTFEVyjiodujAIzwvOzlhYQsbIMpRGC',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "rsaBwYPYenzwbYaTFEVyjiodujAIzwvOzlhYQsbIMpRGC",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -693,15 +693,15 @@ export const response = {
       productName: "myProduct1751604325",
       productImg: "a_v1",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'SRxkWruoJcnXBWCxzEOTXhArsLfCSPeaixSFJfiGcZycq',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "SRxkWruoJcnXBWCxzEOTXhArsLfCSPeaixSFJfiGcZycq",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -712,15 +712,15 @@ export const response = {
       productName: "myProduct2446184195",
       productImg: "a_v2",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'NtZOWUJkbvnSFyYHgJzwaiHRaTGDqsBxpboHGYSXXsBap',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "NtZOWUJkbvnSFyYHgJzwaiHRaTGDqsBxpboHGYSXXsBap",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 4,
       description:
@@ -731,15 +731,15 @@ export const response = {
       productName: "myProduct2418154029",
       productImg: "a_v3",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'xuMMwCBglzpYUDnWqsvmuxsFAJFSBNZmHcLeyDLneWbaC',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "xuMMwCBglzpYUDnWqsvmuxsFAJFSBNZmHcLeyDLneWbaC",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 2,
       description:
@@ -750,15 +750,15 @@ export const response = {
       productName: "myProduct3863578599",
       productImg: "a_v4",
       offerPrice: 1123,
-      buyQuantity:1,
+      buyQuantity: 1,
       actualPrice: 7879,
-      productTittle:'gduHTPQieiYVywezcuVgZKhJCnRKpFQsJYOSQnNQywVXR',
-      keyFeatures:[
-        'Newest technology',
-        'Best in class components',
-        'Dimensions -69.5 x 75.0 x 169.0',
-        'Maintenance free',
-        '12 years warranty'
+      productTittle: "gduHTPQieiYVywezcuVgZKhJCnRKpFQsJYOSQnNQywVXR",
+      keyFeatures: [
+        "Newest technology",
+        "Best in class components",
+        "Dimensions -69.5 x 75.0 x 169.0",
+        "Maintenance free",
+        "12 years warranty",
       ],
       rating: 3,
       description:
@@ -858,6 +858,16 @@ export const response = {
         "Dolores porro laboriosam molestias est quo. Et et eos. Ab error modi labore sed eaque est. Quaerat aut est fugiat.",
       profilePic: "",
       name: "Chelsea Turner",
+      rating: "3",
+    },
+  ],
+  list: [
+    {
+      id: "1",
+      productName: "List001",
+      description: "ProductList",
+      profilePic: "",
+      name: "New",
       rating: "3",
     },
   ],

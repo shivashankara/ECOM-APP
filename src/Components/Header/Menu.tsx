@@ -15,9 +15,11 @@ export default function AppMenu() {
   return (
     <React.Fragment>
       <MenuWrapper>
+        <Link href="/product-category/product-list">Product List</Link>
         {response?.category.map((menu) => {
           return (
-            <Link key={menu.id}
+            <Link
+              key={menu.id}
               className={`link ${
                 pathname === menu.categoryName
               } ? "active" : ""}`}
@@ -25,6 +27,7 @@ export default function AppMenu() {
             >
               {menu.categoryName}
             </Link>
+            
           );
         })}
       </MenuWrapper>

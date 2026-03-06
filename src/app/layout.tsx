@@ -1,8 +1,8 @@
 "use client";
 import store from "@/Redux/store";
-import "react-image-gallery/styles/css/image-gallery.css";
+// import "react-image-gallery/styles/css/image-gallery.css";
 import { Provider } from "react-redux";
-import './globals.css'
+import "./globals.css";
 
 export default function RootLayout({
   children,

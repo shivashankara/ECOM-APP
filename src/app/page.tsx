@@ -4,24 +4,36 @@ import CssBaseline from "@mui/material/CssBaseline";
 import dynamic from "next/dynamic";
 import { Container, Grid, CardMedia } from "@mui/material";
 import { BoxWrapper } from "@/Components/Common/Styles";
+import Image from "next/image";
 
 const Footer = dynamic(() => import("@/Layout/Partials/Footer"), {
   ssr: false,
+  loading: () => <div>Loading...</div>,
 });
 const Header = dynamic(() => import("@/Layout/Partials/Header"), {
   ssr: false,
+  loading: () => <div>Loading...</div>,
 });
 const Banner = dynamic(
   () => import("@/Components/Header/HeaderBanner/Banner"),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => <div>Loading...</div>,
+  },
 );
 const ProductList = dynamic(
   () => import("@/Components/ProductList/ProdcutList"),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => <div>Loading...</div>,
+  },
 );
 const AvailableServices = dynamic(
   () => import("@/Components/Header/HeaderBanner/AvailableService"),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => <div>Loading...</div>,
+  },
 );
 
 import Category from "@/Components/Category/category";
@@ -30,10 +42,8 @@ import Typography from "@mui/material/Typography";
 import TodaysDealCard from "@/Components/TodaysDeal/TodaysDealCard";
 import BrandLogo from "@/Components/BrandLogo/BrandLogo";
 import Testimonial from "@/Components/Testimonial/Testimonial";
-// import { CountApp } from "./TimerApplication/Page";
 
 export default function Home() {
-  const productListArray = Array.from({ length: 4 });
   return (
     <>
       <React.Fragment>
@@ -44,10 +54,9 @@ export default function Home() {
         <Container disableGutters={true}>
           <Grid container mt={4}>
             <BoxWrapper mb={4}>
-            {/* <CountApp /> */}
               {response.category.map((cat) => {
                 return (
-                  <Grid item xs={3}>
+                  <Grid item xs={3} key={cat.id}>
                     <Category category={cat} />
                   </Grid>
                 );
@@ -57,10 +66,10 @@ export default function Home() {
 
           <Grid container>
             <Grid item xs={6}>
-              <img src="./Offer1.jpg" alt="" />
+              <Image src="/Offer1.jpg" alt="Offer 1" width={500} height={300} />
             </Grid>
             <Grid item xs={6}>
-              <img src="./Offer2.jpg" alt="" />
+              <Image src="/Offer2.jpg" alt="Offer 2" width={500} height={300} />
             </Grid>
           </Grid>
 
@@ -75,7 +84,7 @@ export default function Home() {
               <Grid container spacing={2}>
                 {response.bestDeal.map((deal) => {
                   return (
-                    <Grid item xs={3} mb={2}>
+                    <Grid item xs={3} mb={2} key={deal.id}>
                       <TodaysDealCard
                         dealOftheDay={deal}
                         category={"bestDeal"}
@@ -98,7 +107,7 @@ export default function Home() {
               <Grid container spacing={2}>
                 {response?.audio_vedio?.map((aAndv) => {
                   return (
-                    <Grid item xs={3} mb={2}>
+                    <Grid item xs={3} mb={2} key={aAndv.id}>
                       <TodaysDealCard
                         dealOftheDay={aAndv}
                         category={"audio_vedio"}
@@ -110,24 +119,22 @@ export default function Home() {
             </BoxWrapper>
           </Grid>
 
-         
-            <BoxWrapper>
-              <Grid item xs={12}>
-                <div>New Arrivals</div>
-              </Grid>
-              <Grid container spacing={2}>
-              {productListArray.map((_, index) => (
-                <Grid item xs={3}>
-                  <ProductList key={index} />
+          <BoxWrapper>
+            <Grid item xs={12}>
+              <div>New Arrivals</div>
+            </Grid>
+            <Grid container spacing={2}>
+              {Array.from({ length: 4 }).map((_, index) => (
+                <Grid item xs={3} key={`product-${index}`}>
+                  <ProductList />
                 </Grid>
               ))}
-              </Grid>
-            </BoxWrapper>
-          
+            </Grid>
+          </BoxWrapper>
 
           <Grid container pt={1}>
             <Grid item xs={12}>
-              <img src="./" alt="" />
+              {/* <Image src="" alt="" /> */}
             </Grid>
           </Grid>
 
@@ -141,7 +148,12 @@ export default function Home() {
               </Typography>
             </Grid>
             <Grid item xs={6}>
-              <img src="./Offer2.jpg" alt="" />
+              <Image
+                src="/Offer2.jpg"
+                alt="Samsung washing machine offer"
+                width={500}
+                height={300}
+              />
             </Grid>
           </Grid>
 
@@ -153,7 +165,7 @@ export default function Home() {
             </Grid>
             {response.brandLogo.map((logo) => {
               return (
-                <Grid item xs={2}>
+                <Grid item xs={2} key={logo.id}>
                   <BrandLogo logo={logo} />
                 </Grid>
               );
@@ -167,7 +179,7 @@ export default function Home() {
             </Grid>
             {response.testimony.map((list) => {
               return (
-                <Grid item xs={4} gap={"2px"}>
+                <Grid item xs={4} gap={"2px"} key={list.id}>
                   <Testimonial testimony={list} />
                 </Grid>
               );
