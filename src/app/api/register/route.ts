@@ -1,5 +1,6 @@
 import bcrypt from "bcryptjs";
 import clientPromise from "@/lib/mangodb";
+import { signToken, signRefreshToken } from "@/lib/jwt";
 
 export async function POST(request: Request) {
   try {
@@ -7,7 +8,7 @@ export async function POST(request: Request) {
     if (!email || !name || !password) {
       return Response.json(
         { error: "All fields are required" },
-        { status: 400 }
+        { status: 400 },
       );
     }
     const db = await clientPromise();
@@ -21,14 +22,42 @@ export async function POST(request: Request) {
       email,
       name,
       password: hashedPassword,
+      createdAt: new Date(),
     };
     const result = await usersCollection.insertOne(newUser);
+    const userId = result.insertedId.toString();
+
+    // Generate JWT tokens
+    const accessToken = signToken({
+      userId,
+      email,
+      name,
+    });
+    const refreshToken = signRefreshToken({
+      userId,
+      email,
+      name,
+    });
+
     return Response.json(
-      { message: "User registered successfully", userId: result.insertedId },
-      { status: 201 }
+      {
+        message: "User registered successfully",
+        userId,
+        accessToken,
+        refreshToken,
+        user: { name, email },
+      },
+      {
+        status: 201,
+        headers: {
+          "Set-Cookie": `refreshToken=${refreshToken}; Path=/; HttpOnly; SameSite=Strict`,
+        },
+      },
     );
   } catch (error) {
-    console.log("Error in POST request:", error);
-    return Response.json({ error: "Internal Server Error" }, { status: 500 });
+    console.error("Error in register POST request:", error);
+    const errorMessage =
+      error instanceof Error ? error.message : "Internal Server Error";
+    return Response.json({ error: errorMessage }, { status: 500 });
   }
 }

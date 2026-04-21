@@ -15,13 +15,17 @@ async function connectToDatabase(): Promise<Db> {
     const client = new MongoClient(URI);
     await client.connect();
 
-    const db = client.db("yourDatabaseName"); // Replace with your database name
+    // Verify connection
+    await client.db("admin").command({ ping: 1 });
+
+    const dbName = process.env.MONGODB_DB || "ecom-app";
+    const db = client.db(dbName);
 
     // Cache the client and database
     cachedClient = client;
     cachedDb = db;
 
-    console.log("Connected to MongoDB");
+    console.log("Connected to MongoDB successfully");
     return db;
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
